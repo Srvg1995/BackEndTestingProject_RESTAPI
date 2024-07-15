@@ -11,10 +11,11 @@ public class Run2_DeSerializationTest {
 		//To Getting the Binary Data available in this Text file back to Java Object,we are writing below line of codes.
 		ObjectInputStream objIn=new ObjectInputStream(fileIn); 
 		NFSGame user1Object=(NFSGame)objIn.readObject(); //Downcasting-ie,Converting back to NFSGame(ObjectInputStream is a 'Superclass' here)
-		System.out.println(user1Object.name);//To display the current java status
+		System.out.println(user1Object.name);   //To display the current java status
 		System.out.println(user1Object.level);
 		System.out.println(user1Object.score);
 		System.out.println(user1Object.life);
 
 	}
 }
+ 

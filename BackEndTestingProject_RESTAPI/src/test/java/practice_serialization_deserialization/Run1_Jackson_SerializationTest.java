@@ -13,7 +13,7 @@ class Project{   //POJO Class[Plain Old Java Object]=The Business Class whatever
 	private int teamSize;
 	private String status;
 	
-	private Project() {}   //This Empty Constructor is required for DESERIALIZATION
+	public Project() {}   //This Empty Constructor is required for DESERIALIZATION,otherwise JSON file TO JAVA OBJECT conversion(DESERIALIZATION)will not happens.
 	
 	public Project(String projectName, String createdBy, int teamSize, String status) {
 		super();

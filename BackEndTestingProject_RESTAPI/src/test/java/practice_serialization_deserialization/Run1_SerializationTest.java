@@ -5,7 +5,7 @@ import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
 import java.io.Serializable;
 
-class NFSGame implements Serializable{   //'Serializable' is a Marker Interface & this an Indication saying that,this class is SERIALIZABLE(Marker Interface is an Interface which doesn't contain Abstract Method / or Empty Interface we call it as Marker Interface.
+class NFSGame implements Serializable{   //'Serializable' is a Marker Interface & this is an Indication saying that,this class is SERIALIZABLE(Marker Interface is an Interface which doesn't contain Abstract Method / or Empty Interface we call it as Marker Interface.
 	String name;
 	int level;
 	long score;
@@ -31,3 +31,4 @@ public class Run1_SerializationTest {
 	}
 
 }
+ 

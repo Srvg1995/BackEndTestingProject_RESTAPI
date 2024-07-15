@@ -73,7 +73,7 @@ class Project1{   //POJO Class[Plain Old Java Object]=The Business Class whateve
 }
 
 //SERIALIZATION PROGRAM
-public class Run_Jackson_Serialization_Annotation_Test {  
+public class Run_Jackson_Serialization_ANNOTATION_Test {  
 	public static void main(String[] args) throws Throwable, DatabindException, IOException {
 		Project1 pObj=new Project1("Orangeee", "MSG", 10, "Created");  //This is a Java Object which needs to be converted to JSON file
 		

@@ -38,7 +38,7 @@ public class Scenario2_AddEmployeeToProject {
 		.assertThat().body("msg", Matchers.equalTo("Successfully Added"))
 		.log().all();
 		//Capture project Name from the Response
-		String projName = resp.jsonPath().get("projectName");
+		 String projName = resp.jsonPath().get("projectName");
          System.out.println(projName);
         
          
