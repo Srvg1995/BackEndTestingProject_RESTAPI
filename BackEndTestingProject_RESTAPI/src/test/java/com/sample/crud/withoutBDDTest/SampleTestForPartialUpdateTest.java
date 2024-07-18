@@ -13,7 +13,6 @@ public class SampleTestForPartialUpdateTest {
 	public void patchDataToServer()
 	{
 		JSONObject jsonObj=new JSONObject();   
-		    
 		jsonObj.put("projectName", "Laptop"); //projectName changed from Orange1 to Laptop.
 		
 

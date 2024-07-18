@@ -18,7 +18,7 @@ public class SampleTestForCreateTest {
 		jsonObj.put("status", "Created");
 		jsonObj.put("teamSize", 10);
 
-		RequestSpecification req = RestAssured.given();	  //Eventhough all the CRUD operations(HTTP Methods) are available in 'RestAssured' class,but we can't use Post()(except get(),we can't use any other methods like,post(),patch(),delete()),bcz before sending post request I need to write Request body(or I have set some pre-conditions).Those preconditions methods like,body(),contenttype() are available in 'RequestSpecification' Interface. 
+		RequestSpecification req = RestAssured.given();	  //Eventhough all the CRUD operations(HTTP Methods) are available in 'RestAssured' class,but we can't use Post()(except get(),we can't use any other methods like,post(),patch(),delete()),bcz before sending post request I need to write Request body or I have to set some pre-conditions & Those precondition methods like, body(),contenttype() are available in 'RequestSpecification' Interface. 
 		req.contentType(ContentType.JSON);               //Here,line# 23 to 24 are the preconditions.
 		req.body(jsonObj.toJSONString());               //Here we are converting the 'jsonObj' into 'toJSONString' & this conversion should be mandatory bcz,which will convert this Map(ie,jsonObj)into complete Json format of string before passing inside the body(this has to be done bcz,we don't have/installed Json Parser tool to convert).
 

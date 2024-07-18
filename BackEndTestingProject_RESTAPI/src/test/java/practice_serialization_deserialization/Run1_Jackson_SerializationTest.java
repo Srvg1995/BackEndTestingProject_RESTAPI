@@ -56,13 +56,13 @@ class Project{   //POJO Class[Plain Old Java Object]=The Business Class whatever
 	}
 }
 
-//SERIALIZATION PROGRAM
+//JACKSON SERIALIZATION PROGRAM
 public class Run1_Jackson_SerializationTest {  
 	public static void main(String[] args) throws Throwable, DatabindException, IOException {
 		Project pObj=new Project("Orangeee", "MSG", 10, "Created");  //This is a Java Object which needs to be converted to JSON file
 		
 		ObjectMapper objM=new ObjectMapper();
-		objM.writeValue(new File("./project.json"), pObj);  //The above(line#30) Java Object is converted to JSON file here.//This is called Jackson Serialization/Marshalling//This writeValue()always ask 2 arguments,1st argument is Path of the Json file & 2nd argument is POJO Object,sothat by taking the help of Setters(),all the properties available in Java will converting back to Json file & that conversion is takencare by ObjectMapper.
+		objM.writeValue(new File("./project.json"), pObj);  //The above(line#30)Java Object is converted to JSON file here.//This is called Jackson Serialization/Marshalling//This writeValue()always ask 2 arguments,1st argument is Path of the Json file & 2nd argument is POJO Object,sothat by taking the help of Setters(),all the properties available in Java will converting back to Json file & that conversion is takencare by ObjectMapper.
 		System.out.println("===========END=========");
 	}
 

@@ -9,7 +9,7 @@ public class SampleTestForReadTest {
 	@Test
 	public void getDataFromServer()
 	{
-		given()
+		given()  //we can use when()also
 		.get("http://49.249.28.218:8091/projects")
 		.then()
 		.assertThat().statusCode(200)
