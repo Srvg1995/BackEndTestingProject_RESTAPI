@@ -33,7 +33,7 @@ public class Scenario1_DeleteProject {
 		resp.then()
 		.assertThat().statusCode(201)
 		.log().all();
-		//Capture project Name from the Response
+		//Capture projectId from the Response
 		String projectID = resp.jsonPath().get("projectId");
          System.out.println(projectID);
          
