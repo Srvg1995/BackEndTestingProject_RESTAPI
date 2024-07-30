@@ -4,7 +4,7 @@ import org.testng.annotations.Test;
 
 import io.restassured.RestAssured;
 import io.restassured.response.Response;
-//Here we haven't made static import in the above lines,so only we should use class name(RestAssured)before calling get()in the below.
+//Here we haven't made static import in the above import statements,so only we should use class name(RestAssured)before calling get()in the below.
 public class SampleTest {
 
 	@Test
