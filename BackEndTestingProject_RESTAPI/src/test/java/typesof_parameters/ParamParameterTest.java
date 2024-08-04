@@ -1,4 +1,4 @@
-package typesofparameters;
+package typesof_parameters;
 
 import org.testng.annotations.Test;
 
