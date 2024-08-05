@@ -1,6 +1,6 @@
-package practice_method_chaining_1b;
+package B_practice_method_chaining_1b;
 
-import static practice_method_chaining_1a.A2_MtdChaining.*;
+import static A_practice_method_chaining_1a.A2_MtdChaining.*;
 
 import org.testng.annotations.Test;
 

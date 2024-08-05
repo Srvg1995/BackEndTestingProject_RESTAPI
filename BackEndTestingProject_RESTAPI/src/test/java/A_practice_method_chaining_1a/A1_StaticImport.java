@@ -1,4 +1,4 @@
-package practice_method_chaining_1a;
+package A_practice_method_chaining_1a;
 
 public class A1_StaticImport {
 	

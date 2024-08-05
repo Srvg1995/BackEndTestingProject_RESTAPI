@@ -1,4 +1,4 @@
-package practice_MultiplePostRequestTypes;
+package G_practice_MultiplePostRequestTypes;
 
 import static io.restassured.RestAssured.given;
 
@@ -9,8 +9,8 @@ import java.util.Random;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
+import F_pojoclass.utility.ProjectPojo;
 import io.restassured.http.ContentType;
-import pojoclass.utility.ProjectPojo;
 
 public class PostReq_Via_POJOClass4Test {
 

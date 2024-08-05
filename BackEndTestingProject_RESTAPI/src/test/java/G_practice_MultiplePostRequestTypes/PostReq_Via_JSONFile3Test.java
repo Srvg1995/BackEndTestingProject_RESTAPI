@@ -1,4 +1,4 @@
-package practice_MultiplePostRequestTypes;
+package G_practice_MultiplePostRequestTypes;
 
 import static io.restassured.RestAssured.given;
 

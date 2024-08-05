@@ -1,4 +1,4 @@
-package authtest;
+package K_authtest;
 
 import org.testng.annotations.Test;
 

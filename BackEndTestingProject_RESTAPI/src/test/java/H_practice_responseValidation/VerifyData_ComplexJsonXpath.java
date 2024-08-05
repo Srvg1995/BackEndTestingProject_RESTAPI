@@ -1,4 +1,4 @@
-package practice_responseValidation;
+package H_practice_responseValidation;
 
 import static io.restassured.RestAssured.*;
 

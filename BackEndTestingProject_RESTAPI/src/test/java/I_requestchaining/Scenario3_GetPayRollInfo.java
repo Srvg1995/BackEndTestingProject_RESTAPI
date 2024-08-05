@@ -1,4 +1,4 @@
-package requestchaining;
+package I_requestchaining;
 
 import org.testng.annotations.Test;
 

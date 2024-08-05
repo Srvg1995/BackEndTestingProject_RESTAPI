@@ -1,4 +1,4 @@
-package datadriventesting_in_api;
+package M_datadriventesting_in_api;
 
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;

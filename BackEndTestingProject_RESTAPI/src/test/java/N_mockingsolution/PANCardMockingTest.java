@@ -1,4 +1,4 @@
-package mockingsolution;
+package N_mockingsolution;
 
 import org.mockito.Mockito;
 import org.testng.Assert;

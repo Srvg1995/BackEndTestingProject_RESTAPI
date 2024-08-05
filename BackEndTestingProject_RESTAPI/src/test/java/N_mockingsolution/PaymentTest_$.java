@@ -1,4 +1,4 @@
-package mockingsolution;
+package N_mockingsolution;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;

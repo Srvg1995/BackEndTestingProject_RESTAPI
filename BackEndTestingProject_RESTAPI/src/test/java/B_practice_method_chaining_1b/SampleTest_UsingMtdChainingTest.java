@@ -1,4 +1,4 @@
-package practice_method_chaining_1b;
+package B_practice_method_chaining_1b;
 
 import org.testng.annotations.Test;
 import io.restassured.response.Response;

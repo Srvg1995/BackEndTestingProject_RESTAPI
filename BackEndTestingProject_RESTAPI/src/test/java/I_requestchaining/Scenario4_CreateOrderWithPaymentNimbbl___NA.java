@@ -1,4 +1,4 @@
-package requestchaining;
+package I_requestchaining;
 
 import static io.restassured.RestAssured.baseURI;
 

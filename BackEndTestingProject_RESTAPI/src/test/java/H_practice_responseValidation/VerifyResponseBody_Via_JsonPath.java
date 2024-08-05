@@ -1,4 +1,4 @@
-package practice_responseValidation;
+package H_practice_responseValidation;
 
 import org.hamcrest.Matchers;
 import org.testng.annotations.Test;

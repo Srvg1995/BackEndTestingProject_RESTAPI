@@ -1,4 +1,4 @@
-package requestchaining;
+package I_requestchaining;
 
 import static io.restassured.RestAssured.given;
 
@@ -9,9 +9,9 @@ import java.util.Random;
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
 
+import F_pojoclass.utility.ProjectPojo;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import pojoclass.utility.ProjectPojo;
 
 public class Scenario1_DeleteProject {
 

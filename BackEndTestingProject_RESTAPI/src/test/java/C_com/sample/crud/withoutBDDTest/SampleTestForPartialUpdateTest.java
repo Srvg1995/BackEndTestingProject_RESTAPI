@@ -1,4 +1,4 @@
-package com.sample.crud.withoutBDDTest;
+package C_com.sample.crud.withoutBDDTest;
 
 import org.json.simple.JSONObject;
 import org.testng.annotations.Test;
